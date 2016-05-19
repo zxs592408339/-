@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android1601App</string>
+    <string name="text1_name">文本1</string>
+    <string name="text2_name">文本2</string>
+    <string name="text3_name">文本3</string>
+    <string name="text4_name">文本4</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/rel_textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/text1_name"
+        android:textSize="@dimen/text_font_size" />
+
+    <TextView
+        android:id="@+id/rel_textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/rel_textview1"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/text2_name"
+        android:textSize="@dimen/text_font_size" />
+
+    <TextView
+        android:id="@+id/rel_textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rel_textview1"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/text3_name"
+        android:textSize="@dimen/text_font_size" />
+
+    <TextView
+        android:id="@+id/rel_textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rel_textview2"
+        android:layout_toRightOf="@id/rel_textview3"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/text4_name"
+        android:textSize="@dimen/text_font_size" />
+</RelativeLayout>
