@@ -4,4 +4,10 @@
     <string name="text2_name">文本2</string>
     <string name="text3_name">文本3</string>
     <string name="text4_name">文本4</string>
+    <string name="text5_name">文本5</string>
+    <string name="text_name">跑马灯效果用来做什么?  结构化、存储以及传输数据信息</string>
+    <string name="text_view_msg">现时优惠9.8折,原价120元，现价20元</string>
+    <string name="envent_title">事件处理</string>
+
+
 </resources>
